@@ -6,7 +6,7 @@
                 "User"
             ],
             "properties": {
-                "username": "jackjuly"
+                "username": "nitishghormade"
             }
         },
         {
@@ -16,111 +16,59 @@
             ],
             "properties": {
                 "platform": "GitHub",
-                "username": "JackJuly",
-                "profile_url": "https://github.com/JackJuly"
+                "username": "nitishghormade",
+                "profile_url": "https://github.com/nitishghormade"
             }
         },
         {
-            "id": "u3",
-            "labels": [
-                "User"
-            ],
-            "properties": {
-                "username": "JackJuly"
-            }
-        },
-        {
-            "id": "e4",
-            "labels": [
-                "Email"
-            ],
-            "properties": {
-                "address": "ju1y0x0@proton.me",
-                "is_breached": false
-            }
-        },
-        {
-            "id": "a5",
-            "labels": [
-                "SocialMediaAccount"
-            ],
-            "properties": {
-                "platform": "Buy Me a Coffee",
-                "username": "ju1y",
-                "profile_url": "https://buymeacoffee.com/ju1y"
-            }
-        },
-        {
-            "id": "u6",
-            "labels": [
-                "User"
-            ],
-            "properties": {
-                "username": "ju1y"
-            }
-        },
-        {
-            "id": "a7",
-            "labels": [
-                "SocialMediaAccount"
-            ],
-            "properties": {
-                "platform": "X(Twitter)",
-                "username": "Jack_Ju1y",
-                "profile_url": "https://x.com/Jack_Ju1y"
-            }
-        },
-        {
-            "id": "u8",
-            "labels": [
-                "User"
-            ],
-            "properties": {
-                "username": "Jack_Ju1y"
-            }
-        },
-        {
-            "id": "a9",
-            "labels": [
-                "SocialMediaAccount"
-            ],
-            "properties": {
-                "platform": "HackerOne",
-                "username": "ju1y",
-                "profile_url": "https://hackerone.com/ju1y"
-            }
-        },
-        {
-            "id": "a10",
+            "id": "a3",
             "labels": [
                 "SocialMediaAccount"
             ],
             "properties": {
                 "platform": "LinkedIn",
                 "username": "",
-                "profile_url": "https://www.linkedin.com/in/yuan-ma-5b140827b"
+                "profile_url": "https://www.linkedin.com/in/nitish-ghormade"
             }
         },
         {
-            "id": "a11",
+            "id": "a4",
             "labels": [
                 "SocialMediaAccount"
             ],
             "properties": {
-                "platform": "Hack The Box",
-                "username": "",
-                "profile_url": "https://app.hackthebox.com/profile/1261091"
+                "platform": "Instagram",
+                "username": "nitish_ghormade",
+                "profile_url": "https://www.instagram.com/nitish_ghormade"
             }
         },
         {
-            "id": "a12",
+            "id": "u5",
+            "labels": [
+                "User"
+            ],
+            "properties": {
+                "username": "nitish_ghormade"
+            }
+        },
+        {
+            "id": "a6",
             "labels": [
                 "SocialMediaAccount"
             ],
             "properties": {
-                "platform": "Reddit",
-                "username": "jackjuly",
-                "profile_url": "https://reddit.com/user/jackjuly"
+                "platform": "YouTube",
+                "username": "UpskillHacking",
+                "profile_url": "https://www.youtube.com/@UpskillHacking"
+            }
+        },
+        {
+            "id": "u7",
+            "labels": [
+                "User"
+            ],
+            "properties": {
+                "username": "UpskillHacking"
             }
         }
     ],
@@ -133,135 +81,63 @@
         },
         {
             "id": "r2",
-            "type": "CONNECTED_TO",
+            "type": "HAS_ACCOUNT",
             "startNode": "u1",
-            "endNode": "u3"
+            "endNode": "a3"
         },
         {
             "id": "r3",
             "type": "CONNECTED_TO",
-            "startNode": "u3",
-            "endNode": "a2"
+            "startNode": "a2",
+            "endNode": "a3"
         },
         {
             "id": "r4",
-            "type": "HAS_EMAIL",
+            "type": "HAS_ACCOUNT",
             "startNode": "u1",
-            "endNode": "e4"
+            "endNode": "a4"
         },
         {
             "id": "r5",
-            "type": "HAS_ACCOUNT",
-            "startNode": "u1",
-            "endNode": "a5"
+            "type": "CONNECTED_TO",
+            "startNode": "a2",
+            "endNode": "a4"
         },
         {
             "id": "r6",
             "type": "CONNECTED_TO",
-            "startNode": "a2",
-            "endNode": "a5"
+            "startNode": "u1",
+            "endNode": "u5"
         },
         {
             "id": "r7",
             "type": "CONNECTED_TO",
-            "startNode": "u1",
-            "endNode": "u6"
+            "startNode": "u5",
+            "endNode": "a4"
         },
         {
             "id": "r8",
-            "type": "CONNECTED_TO",
-            "startNode": "u6",
-            "endNode": "a5"
+            "type": "HAS_ACCOUNT",
+            "startNode": "u1",
+            "endNode": "a6"
         },
         {
             "id": "r9",
-            "type": "HAS_ACCOUNT",
-            "startNode": "u1",
-            "endNode": "a7"
+            "type": "CONNECTED_TO",
+            "startNode": "a2",
+            "endNode": "a6"
         },
         {
             "id": "r10",
             "type": "CONNECTED_TO",
-            "startNode": "a2",
-            "endNode": "a7"
+            "startNode": "u1",
+            "endNode": "u7"
         },
         {
             "id": "r11",
             "type": "CONNECTED_TO",
-            "startNode": "u1",
-            "endNode": "u8"
-        },
-        {
-            "id": "r12",
-            "type": "CONNECTED_TO",
-            "startNode": "u8",
-            "endNode": "a7"
-        },
-        {
-            "id": "r13",
-            "type": "HAS_ACCOUNT",
-            "startNode": "u1",
-            "endNode": "a9"
-        },
-        {
-            "id": "r14",
-            "type": "CONNECTED_TO",
-            "startNode": "a2",
-            "endNode": "a9"
-        },
-        {
-            "id": "r15",
-            "type": "HAS_ACCOUNT",
-            "startNode": "u1",
-            "endNode": "a5"
-        },
-        {
-            "id": "r16",
-            "type": "HAS_ACCOUNT",
-            "startNode": "u1",
-            "endNode": "a9"
-        },
-        {
-            "id": "r17",
-            "type": "HAS_ACCOUNT",
-            "startNode": "u1",
-            "endNode": "a2"
-        },
-        {
-            "id": "r18",
-            "type": "CONNECTED_TO",
-            "startNode": "a9",
-            "endNode": "a2"
-        },
-        {
-            "id": "r19",
-            "type": "HAS_ACCOUNT",
-            "startNode": "u1",
-            "endNode": "a10"
-        },
-        {
-            "id": "r20",
-            "type": "CONNECTED_TO",
-            "startNode": "a9",
-            "endNode": "a10"
-        },
-        {
-            "id": "r21",
-            "type": "HAS_ACCOUNT",
-            "startNode": "u1",
-            "endNode": "a11"
-        },
-        {
-            "id": "r22",
-            "type": "CONNECTED_TO",
-            "startNode": "a9",
-            "endNode": "a11"
-        },
-        {
-            "id": "r23",
-            "type": "HAS_ACCOUNT",
-            "startNode": "u1",
-            "endNode": "a12"
+            "startNode": "u7",
+            "endNode": "a6"
         }
     ]
 }
